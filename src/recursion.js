@@ -119,7 +119,7 @@ var range = function(x, y, def=[]) {
    // PUSH X INTO ARRAY
     def.push(x);
    // RECURSION
-    return range(x - 1, y, def);
+    return range(x, y, def);
  }
 
 // IF X EQUALS Y
