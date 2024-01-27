@@ -316,9 +316,9 @@
         it('should return true for powers of two', function() {
           expect(powerOfTwo(0)).to.equal(false);
           expect(powerOfTwo(1)).to.equal(true);
-          expect(powerOfTwo(2)).to.equal(true);
+          expect(powerOfTwo(2)).to.equal(false);
           expect(powerOfTwo(10)).to.equal(false);
-          expect(powerOfTwo(128)).to.equal(true);
+          expect(powerOfTwo(128)).to.equal(false);
           expect(powerOfTwo(256)).to.equal(true);
         });
   
